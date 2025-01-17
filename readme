@@ -1,0 +1,9 @@
+Tests
+The configuration includes two test blocks:
+required_parameters_test:
+Validates essential parameters such as storage account name, location, account tier, and replication type.
+optional_parameters_test:
+Validates optional parameters including default_to_oauth_authentication, allow_nested_items_to_be_public, and storage account tags.
+Module Reference
+This configuration uses a module located at ../../modules/adlsgen2. Ensure that the module path is correct and contains the necessary files for creating an 
+Azure Data Lake Storage Gen2 account.
